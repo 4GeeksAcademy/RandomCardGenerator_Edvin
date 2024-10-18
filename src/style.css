@@ -1,1 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+
+  .heading {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: darkred;
+  }
+}
+.card {
+  text-align: center;
+  display: inline-block;
+  margin: 5rem;
+  height: 400px;
+  width: 250px;
+  font-size: 80px;
+  padding: 10px;
+  padding-top: 150px;
+  border-radius: 10px;
+  border: 1px solid;
+  position: relative;
+  .paloUp {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 80px;
+  }
+  .paloDown {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 80px;
+    transform: rotate(180deg);
+  }
+}
